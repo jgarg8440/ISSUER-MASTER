@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
     <h1 class="heading">Issue - An Issue Tracker App</h1>
     <div class="showfullbox">
-    <div class="post-id">
-        <h3> Id: <%= post.id %></h3>
-    </div>
-   <div class="showfullbox">
-   <h3 class="username"> Username: <%=post.username%></h3>
-   <h3 class="StudentId">StudentId: <%=post.StudentId%></h3>
-   <h3 class="DepartMent">DepartMent:<%=post.DepartMent%></h3>
-   <h3 class="Issue"> Issue: <%=post.Issue%></h3>
-   </div>
-</div> 
-        <div class="button">
-            <button class="btn" onclick="window.location.href='http://localhost:8080/posts'">Back</button>
+      <div class="post-id">
+        <h3 class="showid">Id: <%= post.id %></h3>
+      </div>
+      <div class="showfullbox">
+        <div class="inline">
+          <h3 class="username">Username: <%=post.username%></h3>
+          <h3 class="StudentId">StudentId: <%=post.StudentId%></h3>
         </div>
-
-</body>
+        <h3 class="DepartMent">DepartMent:<%=post.DepartMent%></h3>
+        <div class="detail-show">
+          <h3 class="Issue">Issue: <%=post.Issue%></h3>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <button
+        class="btn"
+        onclick="window.location.href='http://localhost:8080/posts'"
+      >
+        Back
+      </button>
+    </div>
+  </body>
 </html>
