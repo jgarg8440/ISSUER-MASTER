@@ -15,14 +15,20 @@ Real-time Updates: Stay informed with updates on issue statuses, resolutions, an
 Customizable for Your Institution: Tailor ISSUER-MASTER to your college's unique needs and branding.
 
 ✔️Click the "New issue" button.
+
 ✔️In the issue title, provide a brief summary of the problem or suggestion.
 ![create](https://github.com/jgarg8440/ISSUER-MASTER/assets/102863455/7eb6b3a9-7bba-4542-aa3c-6555d74cb192)
 
 Fill out the form with the following information:
+
       ✔️Your Name: Provide your name or a preferred alias.
+      
       ✔️Id: Fill the Unique Id in form.
+      
       ✔️Email: Include your email address if you'd like to be contacted for further discussion or updates on the issue.
+      
       ✔️DepartMent: Enter your DepartMent(CSE).
+      
       ✔️Issue Description: Describe the problem or suggestion in detail. Include steps to reproduce (if applicable) and any additional context that helps us understand the issue.
 ![add](https://github.com/jgarg8440/ISSUER-MASTER/assets/102863455/d7f7d482-e909-4270-9c9f-e5c8349a4485)
 
