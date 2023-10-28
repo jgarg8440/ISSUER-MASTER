@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreateIssue</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1 class="heading">Issue - An Issue Tracker App</h1>
+    <form method="post" action="/posts">
+      <div class="form">
+        <h1 class="new-Issue">Add New Issue:</h1>
+        <div class="form-subpart">
+          <label for="Name">
+            <h3 class="Name">Name<span style="color: red">*</span></h3>
+            <input
+              type="text"
+              name="username"
+              id="Name"
+              required
+              placeholder="Enter your name"
+            />
+          </label>
+        </div>
+        <div class="form-subpart">
+            <label for="StudentId">
+              <h3 class="StudentId">StudentId<span style="color: red">*</span></h3>
+              <input
+                type="text"
+                name="StudentId"
+                id="StudentId"
+                required
+                placeholder="Enter your StudentId"
+              />
+            </label>
+          </div>
+          <div class="form-subpart">
+            <label for="Department">
+              <h3 class="Department">Department<span style="color: red">*</span></h3>
+              <input
+                type="text"
+                name="DepartMent"
+                id="Department"
+                required
+                placeholder="Enter your Department"
+              />
+            </label>
+          </div>
+          <div class="form-subpart">
+            <label for="Issue">
+              <h3 class="Issue">Issue<span style="color: red">*</span></h3>
+              <textarea name="Issue" id="Issue"  placeholder="Enter your Issue"></textarea>
+            </label>
+          </div>
+      </div>
+      <div class="button">
+      <button class="btn">Submit</button>
+    </div>
+    </form>
+  </body>
+</html>

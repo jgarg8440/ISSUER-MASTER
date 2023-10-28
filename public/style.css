@@ -1,0 +1,201 @@
+
+.post{
+    background-color: rgb(240, 213, 181);
+    margin: 20px 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.heading{
+    text-align: center;
+    color: red;
+}
+.heading:hover{
+    text-decoration: underline;
+     
+     text-shadow: 3px 3px 5px rgb(199, 121, 134);
+}
+.post:hover{
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    transition: 50ms;
+}
+
+/* new.ejs */
+.form{
+    background-color: rgb(234, 205, 170);
+    margin: 50px 50px 20px 50px ;
+    height: 35em;
+}
+.new-Issue{
+   margin-left: 50px;
+   padding-top: 30px;
+
+}
+.form-subpart{
+    margin: 20px 80px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.button{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(99, 211, 99);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(40, 189, 40);
+ 
+}
+.btn-view{
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(101, 108, 205);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-view:hover{
+    background-color: rgb(70, 79, 196);
+}
+.btn-delete{
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(206, 70, 70);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-delete:hover{
+    background-color: rgb(188, 53, 53);
+
+}
+.open-close{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(32, 255, 20);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+    color: white;
+}
+input{
+    width: 88%;
+    height: 2.5em;
+    border-radius: 3px;
+}
+input:hover{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#Issue{
+     width: 88%;
+     height: 4.3em;
+}
+#Issue:hover{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.view-delete{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgb(230, 212, 189);
+}
+
+/* show  */
+
+.showfullbox{
+    background-color: rgb(234, 205, 170);
+    margin: 20px 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 8px;
+}
+@media screen and (max-width: 772px) {
+    input {
+        width: 80%;
+        height: 2.3em;
+        border-radius: 3px;
+    }
+    #Issue{
+        width: 80%;
+        height: 4.3em;
+        border-radius: 3px;
+
+   }
+
+  }
+  @media screen and (max-width: 772px) {
+    input {
+        width: 80%;
+        height: 2.3em;
+        border-radius: 3px;
+    }
+    #Issue{
+        width: 80%;
+        height: 4.3em;
+        border-radius: 3px;
+   }
+  }
+  @media screen and (max-width: 772px) {
+    .post {
+        margin: 10px;
+        padding: 5px;
+        font-size: 16px; 
+    }
+    .heading {
+        font-size: 18px; 
+    }
+    .form {
+        margin: 20px;
+    }
+    .new-Issue {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .form-subpart {
+        margin: 10px 40px;
+        font-size: medium; 
+    }
+    input, #Issue {
+        width: 95%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post {
+        margin: 5px;
+        padding: 5px;
+        font-size: 14px; 
+    }
+    .heading {
+        font-size: 16px; 
+    }
+    .form {
+        margin: 10px;
+    }
+    .new-Issue {
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .form-subpart {
+        margin: 5px 20px;
+        font-size: small; 
+    }
+    input, #Issue {
+        width: 100%; 
+    }
+}
+  
