@@ -13,3 +13,4 @@ User-Friendly Interface: A simple, intuitive platform that ensures everyone can 
 Collaborative Problem-Solving: Engage with fellow students, faculty, and administrators to collectively address issues.
 Real-time Updates: Stay informed with updates on issue statuses, resolutions, and discussions.
 Customizable for Your Institution: Tailor ISSUER-MASTER to your college's unique needs and branding.
+![create](https://github.com/jgarg8440/ISSUER-MASTER/assets/102863455/7eb6b3a9-7bba-4542-aa3c-6555d74cb192)
