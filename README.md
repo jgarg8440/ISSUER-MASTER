@@ -14,3 +14,4 @@ Collaborative Problem-Solving: Engage with fellow students, faculty, and adminis
 Real-time Updates: Stay informed with updates on issue statuses, resolutions, and discussions.
 Customizable for Your Institution: Tailor ISSUER-MASTER to your college's unique needs and branding.
 ![create](https://github.com/jgarg8440/ISSUER-MASTER/assets/102863455/7eb6b3a9-7bba-4542-aa3c-6555d74cb192)
+![add](https://github.com/jgarg8440/ISSUER-MASTER/assets/102863455/d7f7d482-e909-4270-9c9f-e5c8349a4485)
