@@ -15,17 +15,10 @@ app.use(express.static(path.join(__dirname,"public")));
 let posts=[
     {
         id:uuidv4(),
-        username:"Spider Man",
+        username:"Jatin Garg",
         StudentId:"21BCS10747",
         DepartMent:"Computer Science Engineering",
-        Issue:"Spider says Batman cu me company kab ati ha",
-    },
-    {
-        id:uuidv4(),
-        username:"Batman",
-        StudentId:"21BCS10694",
-        DepartMent:"Computer Science Engineering",
-        Issue:"Don't Worry 6100+ placement in last year",
+        Issue:"There is currently a complete electrical outage on the 3rd floor of the North Campus Library. All lights and electrical outlets are not functioning. This outage began approximately one hour ago and is causing significant disruption to students studying in the area.",
     },
 ];
 app.get("/posts",(req,res)=>{
